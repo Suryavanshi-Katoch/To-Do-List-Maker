@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TO DO LIST</title>
+        <link rel="stylesheet" href="styles-Function/ToDoList.css">
+    </head>
+    <body>
+
+        <div class="header">TO DO LIST MAKER</div>
+ 
+        <input class="Tasklist" type="text" placeholder="Type your Task here" onkeydown="keypressed(event)">
+
+        <input class="Taskdate" type="date" onkeydown="keypressed(event)">
+ 
+        <button class="addButton" onclick="takeInput()">
+            Add
+        </button> 
+ 
+        <div class="LIST"></div>
+
+        <script src="styles-Function/ToDoList.js"></script>
+    </body>
+</html>
